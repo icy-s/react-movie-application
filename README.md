@@ -1,16 +1,104 @@
-# React + Vite
+# 🎬 Movie App (Tutorial Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie browsing web application built by following a step-by-step video tutorial. This project is created for **learning and practice purposes**, focusing on modern frontend development with React and external APIs.
 
-Currently, two official plugins are available:
+> ⚠️ This is a **tutorial-based project**. The original idea, design, and core architecture come from the educational content referenced below.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application allows users to:
+- Browse trending and popular movies
+- Search movies by title
+- View movie ratings, release year, and language
 
-## Expanding the ESLint configuration
+The app features a clean modern UI and is fully responsive across desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** — UI library
+- **Vite** — development server and build tool
+- **Tailwind CSS** — utility-first styling
+- **Appwrite** — backend services (database & persistence)
+- **TMDB API** — movie data provider
+
+---
+
+## ✨ Features
+
+- 🎞️ Browse popular movies
+- 🔍 Search for movies by name
+- 📈 Trending movies section
+- 🎨 Modern UI/UX design
+- 📱 Fully responsive layout
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+- **Node.js** (v18+ recommended)
+- **npm** or **yarn**
+- **Git**
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+cd <your-project-folder>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+```
+
+### Run the Project
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+---
+
+## 📚 Learning Source
+
+This project was built by following a tutorial from **JavaScript Mastery** on YouTube.
+
+The tutorial focuses on:
+- React fundamentals
+- Project structure and best practices
+- API integration
+- Clean UI with Tailwind CSS
+
+All credits for the original concept and guidance go to the tutorial author.
+
+---
+
+## 📄 License
+
+This project is for **educational purposes only**. Not intended for commercial use.
+
