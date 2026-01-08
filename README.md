@@ -1,5 +1,10 @@
 <img src="readme/hero.png" alt="Project Banner">
 
+# 🔗 Live Demo
+👉 **Try it here:** https://react-movie-application-alpha.vercel.app
+
+---
+
 # 🎬 Movie App (Tutorial Project)
 
 A movie browsing web application built by following a step-by-step video tutorial. This project is created for **learning and practice purposes**, focusing on modern frontend development with React and external APIs.
